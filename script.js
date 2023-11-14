@@ -2,13 +2,12 @@
 // Make sure to link your JS in index.html!
 
 // Create a Car class, with a constructor that accepts 3 parameters: make (ex: Chevy, Ford, Toyota), model (ex: Camero, F150, Rav4), and year.
-class car {
+class Car {
     constructor (make, model, year) {
-        this.make = make,
-        this.model = model,
-        this.year = year,
-      
-}
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
 
 }
 
