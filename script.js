@@ -7,13 +7,23 @@ class Car {
         this.make = make;
         this.model = model;
         this.year = year;
+       
     }
+
+    // Car should also include a method, .describe which simply returns "This is a YEAR MODEL, made by MAKE." replacing YEAR, MODEL and MAKE with the correct information from the Car object.
+    describe () {
+        console.log('This is a' + ' ' + this.year +  ' ' + this.model, 'made by' +  ' ' + this.make);
+
 
 }
 
-// Car should also include a method, .describe which simply returns "This is a YEAR MODEL, made by MAKE." replacing YEAR, MODEL and MAKE with the correct information from the Car object.
 
-// const chevyTahoe = new Car("Chevrolet", "Tahoe", "2017");
+}
+const chevyTahoe = new Car("Chevrolet", "Tahoe", "2017");
+console.log(chevyTahoe.describe());
+
+
+
 // chevyTahoe.describe // This is a 2017 Tahoe, made by Chevrolet.
 // Create 4 cars (with any make, model and year) and push them all to a new array called allCars.
 // Create a new array called allCars.
